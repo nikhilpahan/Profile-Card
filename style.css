@@ -16,6 +16,9 @@ body {
 }
 
 .profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 370px;
     width: 100%;
     background: #fff;
@@ -31,6 +34,7 @@ body {
     border-radius: 50%;
     background-color: #4070f4;
     padding: 3px;
+    margin-bottom: 10px;
 }
 
 .image .profile-img{
@@ -39,4 +43,34 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #fff;
+}
+
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+}
+.media-buttons .link{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
 }
