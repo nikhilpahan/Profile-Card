@@ -67,6 +67,11 @@ body {
     align-items: center;
 }
 .media-buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
     height: 34px;
     width: 34px;
     border-radius: 50%;
