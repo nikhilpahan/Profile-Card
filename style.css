@@ -36,7 +36,8 @@ body {
     height: 36%;
     width: 100%;
     border-radius: 24px 24px 0 0;
-    background-color: #4070f4;
+    /*background-color: #4070f4;*/
+    background-image: linear-gradient(to bottom , #072b8c, #4070f4);
 }
 
 .image{
