@@ -65,6 +65,7 @@ body {
 .profile-card .media-buttons{
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
 .media-buttons .link{
     display: flex;
